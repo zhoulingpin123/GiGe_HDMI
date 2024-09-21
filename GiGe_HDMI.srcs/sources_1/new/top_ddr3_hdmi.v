@@ -65,7 +65,7 @@ wire      app_wdf_rdy;
 wire      app_en;
 wire      app_rdy;
 wire  [27:0]  app_addr;
-wire  [2:0] app_cmd;
+wire  [2:0]   app_cmd;
 wire  [127:0] app_rd_data;
 wire        app_rd_data_valid;
 

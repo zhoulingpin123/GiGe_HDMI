@@ -1,0 +1,185 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2708876 on Wed Nov  6 21:40:23 MST 2019
+IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+
+Process ID (PID): 12180
+License: Customer
+
+Current time: 	Sat Sep 21 20:32:46 GMT+08:00 2024
+Time zone: 	GMT+08:00 (GMT+08:00)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 22 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	D:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	hp-zlp
+User home directory: C:/Users/26017
+User working directory: D:/respository/GIGE_HDMI
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2019.2
+RDI_DATADIR: D:/Xilinx/Vivado/2019.2/data
+RDI_BINDIR: D:/Xilinx/Vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/26017/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/26017/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/26017/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/respository/GIGE_HDMI/vivado.log
+Vivado journal file location: 	D:/respository/GIGE_HDMI/vivado.jou
+Engine tmp dir: 	D:/respository/GIGE_HDMI/.Xil/Vivado-12180-hp-ZLP
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_DSP: D:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Xilinx/Vivado/2019.2
+XILINX_SDK: D:/Xilinx/Vitis/2019.2
+XILINX_VITIS: D:/Xilinx/Vitis/2019.2
+XILINX_VIVADO: D:/Xilinx/Vivado/2019.2
+XILINX_VIVADO_HLS: D:/Xilinx/Vivado/2019.2
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 756 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 69 MB (+69965kb) [00:00:07]
+// [Engine Memory]: 622 MB (+501058kb) [00:00:07]
+// bB (cr):  Open Project : addNotify
+// Opening Vivado Project: D:\respository\GIGE_HDMI\GiGe_HDMI.xpr. Version: Vivado v2019.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/respository/GIGE_HDMI/GiGe_HDMI.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 801 MB. GUI used memory: 50 MB. Current time: 9/21/24, 8:32:48 PM GMT+08:00
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 878 MB (+235258kb) [00:00:15]
+// [GUI Memory]: 85 MB (+12945kb) [00:00:15]
+// [Engine Memory]: 949 MB (+28932kb) [00:00:15]
+// [GUI Memory]: 100 MB (+11250kb) [00:00:16]
+// [GUI Memory]: 109 MB (+4172kb) [00:00:16]
+// WARNING: HEventQueue.dispatchEvent() is taking  2612 ms.
+// Tcl Message: open_project D:/respository/GIGE_HDMI/GiGe_HDMI.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'E:/fpga_image/vivadoproject_2019.2/GiGe_HDMI' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.2/data/ip'. 
+// [GUI Memory]: 117 MB (+2570kb) [00:00:17]
+// WARNING: HEventQueue.dispatchEvent() is taking  1195 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1023.812 ; gain = 354.797 
+// [Engine Memory]: 1,339 MB (+358299kb) [00:00:19]
+// Project name: GiGe_HDMI; location: D:/respository/GIGE_HDMI; part: xc7a35tfgg484-2
+dismissDialog("Open Project"); // bB (cr)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_ddr3_hdmi (top_ddr3_hdmi.v)]", 1, true); // B (F, cr) - Node
+// [GUI Memory]: 127 MB (+4538kb) [00:00:24]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_ddr3_hdmi (top_ddr3_hdmi.v)]", 1); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_ddr3_hdmi (top_ddr3_hdmi.v), inst_get_images_pixels : get_images_pixels (get_images_pixels.v)]", 7, false); // B (F, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,401 MB. GUI used memory: 71 MB. Current time: 9/21/24, 8:33:03 PM GMT+08:00
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, uart_rx (uart_rx.v)]", 25, false); // B (F, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 354 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_ddr3_hdmi (top_ddr3_hdmi.v), inst_iddr_ctrl : iddr_ctrl (iddr_ctrl.v)]", 5, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_ddr3_hdmi (top_ddr3_hdmi.v)]", 1, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_ddr3_hdmi (top_ddr3_hdmi.v)]", 1, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+selectCodeEditor("top_ddr3_hdmi.v", 57, 182); // ch (w, cr)
+selectCodeEditor("top_ddr3_hdmi.v", 174, 168); // ch (w, cr)
+selectCodeEditor("top_ddr3_hdmi.v", 208, 162); // ch (w, cr)
+selectCodeEditor("top_ddr3_hdmi.v", 284, 163); // ch (w, cr)
+selectCodeEditor("top_ddr3_hdmi.v", 284, 164, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("top_ddr3_hdmi.v", 324, 165); // ch (w, cr)
+selectCodeEditor("top_ddr3_hdmi.v", 312, 172); // ch (w, cr)
+selectCodeEditor("top_ddr3_hdmi.v", 344, 184); // ch (w, cr)
+selectCodeEditor("top_ddr3_hdmi.v", 334, 183); // ch (w, cr)
+selectCodeEditor("top_ddr3_hdmi.v", 333, 168); // ch (w, cr)
+selectCodeEditor("top_ddr3_hdmi.v", 357, 230); // ch (w, cr)
+selectCodeEditor("top_ddr3_hdmi.v", 193, 193); // ch (w, cr)
+selectCodeEditor("top_ddr3_hdmi.v", 217, 160); // ch (w, cr)
+selectCodeEditor("top_ddr3_hdmi.v", 127, 161); // ch (w, cr)
+selectCodeEditor("top_ddr3_hdmi.v", 147, 174); // ch (w, cr)
+selectCodeEditor("top_ddr3_hdmi.v", 130, 168); // ch (w, cr)
+selectCodeEditor("top_ddr3_hdmi.v", 129, 167, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("top_ddr3_hdmi.v", 128, 167); // ch (w, cr)
+selectCodeEditor("top_ddr3_hdmi.v", 130, 171); // ch (w, cr)
+selectCodeEditor("top_ddr3_hdmi.v", 129, 169, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("top_ddr3_hdmi.v", 129, 169); // ch (w, cr)
+selectCodeEditor("top_ddr3_hdmi.v", 127, 169); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
