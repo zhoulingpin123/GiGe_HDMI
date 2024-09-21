@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Aug 22 21:30:48 2024
+# Process ID: 5752
+# Current directory: E:/fpga_image/vivadoproject_2019.2/GiGe_HDMI
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3936 E:\fpga_image\vivadoproject_2019.2\GiGe_HDMI\GiGe_HDMI.xpr
+# Log file: E:/fpga_image/vivadoproject_2019.2/GiGe_HDMI/vivado.log
+# Journal file: E:/fpga_image/vivadoproject_2019.2/GiGe_HDMI\vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 22 21:31:00 2024...

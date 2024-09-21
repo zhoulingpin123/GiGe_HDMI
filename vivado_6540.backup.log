@@ -1,0 +1,575 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Aug 18 17:07:32 2024
+# Process ID: 6540
+# Current directory: E:/fpga_image/vivado_2019.2/GiGe_HDMI
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11680 E:\fpga_image\vivado_2019.2\GiGe_HDMI\GiGe_HDMI.xpr
+# Log file: E:/fpga_image/vivado_2019.2/GiGe_HDMI/vivado.log
+# Journal file: E:/fpga_image/vivado_2019.2/GiGe_HDMI\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.2/data/ip'.
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.2
+  **** Build date : Nov  6 2019 at 22:12:23
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2019.2.0
+  **** Build date : Nov 07 2019-13:28:22
+    ** Copyright 2017-2019 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 1216.027 ; gain = 2.418
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/26CB674F8871
+set_property PROGRAM.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+set_property PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'ila_0' at location 'uuid_D7F66BBC62045AEA8C9B20B797086963' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'ila_0' at location 'uuid_D7F66BBC62045AEA8C9B20B797086963' from probes file, since it cannot be found on the programmed device.
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.C_PROBE0_WIDTH {8} CONFIG.C_DATA_DEPTH {2048} CONFIG.C_NUM_OF_PROBES {2}] [get_ips ila_0]
+set_property generate_synth_checkpoint true [get_files  E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.srcs/sources_1/ip/ila_0/ila_0.xci]
+generate_target all [get_files  E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.srcs/sources_1/ip/ila_0/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.srcs/sources_1/ip/ila_0/ila_0_ooc.xdc'
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_0'...
+catch { config_ip_cache -export [get_ips -all ila_0] }
+export_ip_user_files -of_objects [get_files E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.srcs/sources_1/ip/ila_0/ila_0.xci]
+launch_runs -jobs 6 ila_0_synth_1
+[Sun Aug 18 17:14:39 2024] Launched ila_0_synth_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/ila_0_synth_1/runme.log
+export_simulation -of_objects [get_files E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.srcs/sources_1/ip/ila_0/ila_0.xci] -directory E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.ip_user_files/sim_scripts -ip_user_files_dir E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.ip_user_files -ipstatic_source_dir E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/fpga_image/modeltech64_10.7/vivado_lib} {questa=E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.cache/compile_simlib/questa} {riviera=E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.cache/compile_simlib/riviera} {activehdl=E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Sun Aug 18 17:15:30 2024] Launched ila_0_synth_1, synth_1...
+Run output will be captured here:
+ila_0_synth_1: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/ila_0_synth_1/runme.log
+synth_1: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/synth_1/runme.log
+[Sun Aug 18 17:15:30 2024] Launched impl_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Sun Aug 18 17:17:36 2024] Launched synth_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/synth_1/runme.log
+[Sun Aug 18 17:17:36 2024] Launched impl_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/runme.log
+set_property PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'ila_0' at location 'uuid_D7F66BBC62045AEA8C9B20B797086963' from probes file, since it cannot be found on the programmed device.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/26CB674F8871
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/26CB674F8871
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'ila_0' at location 'uuid_D7F66BBC62045AEA8C9B20B797086963' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/26CB674F8871
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/26CB674F8871
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'ila_0' at location 'uuid_D7F66BBC62045AEA8C9B20B797086963' from probes file, since it cannot be found on the programmed device.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/26CB674F8871
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Sun Aug 18 18:11:00 2024] Launched synth_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/synth_1/runme.log
+[Sun Aug 18 18:11:00 2024] Launched impl_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/26CB674F8871
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'ila_0' at location 'uuid_D7F66BBC62045AEA8C9B20B797086963' from probes file, since it cannot be found on the programmed device.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Sun Aug 18 18:17:20 2024] Launched synth_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/synth_1/runme.log
+[Sun Aug 18 18:17:20 2024] Launched impl_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/runme.log
+set_property PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'ila_0' at location 'uuid_D7F66BBC62045AEA8C9B20B797086963' from probes file, since it cannot be found on the programmed device.
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+create_ip -name clk_wiz -vendor xilinx.com -library ip -version 6.0 -module_name clk_wiz_0 -dir e:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.srcs/sources_1/ip
+set_property -dict [list CONFIG.PRIM_IN_FREQ {50.000} CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {125.000} CONFIG.USE_LOCKED {false} CONFIG.USE_RESET {false} CONFIG.CLKIN1_JITTER_PS {200.0} CONFIG.MMCM_CLKFBOUT_MULT_F {20.000} CONFIG.MMCM_CLKIN1_PERIOD {20.000} CONFIG.MMCM_CLKIN2_PERIOD {10.0} CONFIG.MMCM_CLKOUT0_DIVIDE_F {8.000} CONFIG.CLKOUT1_JITTER {154.207} CONFIG.CLKOUT1_PHASE_ERROR {164.985}] [get_ips clk_wiz_0]
+generate_target {instantiation_template} [get_files e:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'...
+generate_target all [get_files  e:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_wiz_0'...
+catch { config_ip_cache -export [get_ips -all clk_wiz_0] }
+export_ip_user_files -of_objects [get_files e:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] e:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+launch_runs -jobs 6 clk_wiz_0_synth_1
+[Sun Aug 18 18:23:51 2024] Launched clk_wiz_0_synth_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/clk_wiz_0_synth_1/runme.log
+export_simulation -of_objects [get_files e:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -directory E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.ip_user_files/sim_scripts -ip_user_files_dir E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.ip_user_files -ipstatic_source_dir E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/fpga_image/modeltech64_10.7/vivado_lib} {questa=E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.cache/compile_simlib/questa} {riviera=E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.cache/compile_simlib/riviera} {activehdl=E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Sun Aug 18 18:24:49 2024] Launched synth_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/synth_1/runme.log
+[Sun Aug 18 18:24:49 2024] Launched impl_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/runme.log
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Sun Aug 18 18:25:39 2024] Launched synth_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/synth_1/runme.log
+[Sun Aug 18 18:25:39 2024] Launched impl_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/runme.log
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/26CB674F8871
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/26CB674F8871
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'ila_0' at location 'uuid_D7F66BBC62045AEA8C9B20B797086963' from probes file, since it cannot be found on the programmed device.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/26CB674F8871
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Sun Aug 18 18:28:55 2024] Launched synth_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/synth_1/runme.log
+[Sun Aug 18 18:28:55 2024] Launched impl_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/26CB674F8871
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2024-Aug-18 18:30:47
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2024-Aug-18 18:30:47
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Sun Aug 18 18:31:10 2024] Launched synth_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/synth_1/runme.log
+[Sun Aug 18 18:31:10 2024] Launched impl_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/runme.log
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/26CB674F8871
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/26CB674F8871
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'ila_0' at location 'uuid_D7F66BBC62045AEA8C9B20B797086963' from probes file, since it cannot be found on the programmed device.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Sun Aug 18 18:34:05 2024] Launched synth_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/synth_1/runme.log
+[Sun Aug 18 18:34:05 2024] Launched impl_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/runme.log
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/26CB674F8871
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/26CB674F8871
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0"}]]
+WARNING: Simulation object cng was not found in the design.
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {rx_data} }
+set_property TRIGGER_COMPARE_VALUE eq1'bR [get_hw_probes rx_en -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2024-Aug-18 18:36:06
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2024-Aug-18 18:36:07
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Sun Aug 18 19:35:06 2024] Launched synth_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/synth_1/runme.log
+[Sun Aug 18 19:35:06 2024] Launched impl_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.2
+  **** Build date : Nov  6 2019 at 22:12:23
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2019.2.0
+  **** Build date : Nov 07 2019-13:28:22
+    ** Copyright 2017-2019 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 2655.258 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/26CB674F8871
+set_property PROGRAM.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+set_property PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'ila_0' at location 'uuid_D7F66BBC62045AEA8C9B20B797086963' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2024-Aug-18 19:39:09
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2024-Aug-18 19:39:23
+WARNING: [Labtools 27-157] hw_ila [hw_ila_1] stopped. No data to upload.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2024-Aug-18 19:39:24
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2024-Aug-18 19:39:28
+WARNING: [Labtools 27-157] hw_ila [hw_ila_1] stopped. No data to upload.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Sun Aug 18 19:39:53 2024] Launched synth_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/synth_1/runme.log
+[Sun Aug 18 19:39:53 2024] Launched impl_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/runme.log
+set_property PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2024-Aug-18 19:41:43
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2024-Aug-18 19:41:44
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2024-Aug-18 19:41:46
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2024-Aug-18 19:41:46
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2024-Aug-18 21:07:32
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2024-Aug-18 21:07:33
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Sun Aug 18 21:54:14 2024] Launched synth_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/synth_1/runme.log
+[Sun Aug 18 21:54:14 2024] Launched impl_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/runme.log
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.C_PROBE0_WIDTH {64} CONFIG.C_NUM_OF_PROBES {1}] [get_ips ila_0]
+generate_target all [get_files  E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.srcs/sources_1/ip/ila_0/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.srcs/sources_1/ip/ila_0/ila_0_ooc.xdc'
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_0'...
+catch { config_ip_cache -export [get_ips -all ila_0] }
+export_ip_user_files -of_objects [get_files E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -sync -force -quiet
+reset_run ila_0_synth_1
+launch_runs -jobs 6 ila_0_synth_1
+[Sun Aug 18 21:55:27 2024] Launched ila_0_synth_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/ila_0_synth_1/runme.log
+export_simulation -of_objects [get_files E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.srcs/sources_1/ip/ila_0/ila_0.xci] -directory E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.ip_user_files/sim_scripts -ip_user_files_dir E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.ip_user_files -ipstatic_source_dir E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/fpga_image/modeltech64_10.7/vivado_lib} {questa=E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.cache/compile_simlib/questa} {riviera=E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.cache/compile_simlib/riviera} {activehdl=E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Sun Aug 18 21:55:40 2024] Launched ila_0_synth_1, synth_1...
+Run output will be captured here:
+ila_0_synth_1: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/ila_0_synth_1/runme.log
+synth_1: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/synth_1/runme.log
+[Sun Aug 18 21:55:40 2024] Launched impl_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/runme.log
+set_property PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'inst_rx_filter_buffer/ila_0_inst' at location 'uuid_E34FAAF97B265BF59267E99EE1A4CC8A' from probes file, since it cannot be found on the programmed device.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Sun Aug 18 21:59:07 2024] Launched synth_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/synth_1/runme.log
+[Sun Aug 18 21:59:07 2024] Launched impl_1...
+Run output will be captured here: E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/runme.log
+set_property PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.ltx} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {inst_rx_filter_buffer/frx_data} {inst_rx_filter_buffer/frx_en} {inst_rx_filter_buffer/pkg_end} {inst_rx_filter_buffer/pkg_status} {inst_rx_filter_buffer/read_proc_flag} {inst_rx_filter_buffer/read_sta_en} {inst_rx_filter_buffer/rx_buf_empty} {inst_rx_filter_buffer/rx_buffer_rd_en} {inst_rx_filter_buffer/rx_data} {inst_rx_filter_buffer/rx_en} {inst_rx_filter_buffer/rx_en_t} {inst_rx_filter_buffer/status_reg} }
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"inst_rx_filter_buffer/ila_0_inst"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2024-Aug-18 22:03:29
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"inst_rx_filter_buffer/ila_0_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"inst_rx_filter_buffer/ila_0_inst"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2024-Aug-18 22:03:29
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"inst_rx_filter_buffer/ila_0_inst"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2024-Aug-18 22:03:36
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"inst_rx_filter_buffer/ila_0_inst"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"inst_rx_filter_buffer/ila_0_inst"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2024-Aug-18 22:03:36
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property TRIGGER_COMPARE_VALUE eq1'bR [get_hw_probes inst_rx_filter_buffer/frx_en -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"inst_rx_filter_buffer/ila_0_inst"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"inst_rx_filter_buffer/ila_0_inst"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2024-Aug-18 22:03:47
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"inst_rx_filter_buffer/ila_0_inst"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"inst_rx_filter_buffer/ila_0_inst"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2024-Aug-18 22:03:52
+WARNING: [Labtools 27-157] hw_ila [hw_ila_1] stopped. No data to upload.
+save_wave_config {E:/fpga_image/vivado_2019.2/GiGe_HDMI/GiGe_HDMI.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Aug 18 22:39:31 2024...
